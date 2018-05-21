@@ -21,12 +21,13 @@
     function displayTime(){
     var date = new Date();
     var time = date.toLocaleTimeString();
-    document.write(time);
+    document.getElementById('demo').innerHTML=time;
     }
   </script>
   
 </head>
 <body>
+  <p id = 'demo'></p>
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse mbr-navbar--transparent" id="ext_menu-165" data-rv-view="0">
     <div class="mbr-navbar__section mbr-section">
         <div class="mbr-section__container container">
